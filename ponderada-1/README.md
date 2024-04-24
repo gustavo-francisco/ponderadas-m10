@@ -37,7 +37,10 @@ Requisitos das operações:
 
 Para melhor entendimento dos requisitos, visite o Swagger.
 
-**GET** Não é necessário ter um corpo.
-**POST** Precisa ter um corpo no formato JSON. É lá que você manipula conforme sua necessidade.
-**PUT** Precisa ter um corpo no formato JSON. É lá que você manipula conforme sua necessidade.
-**DELETE** Não é necessário ter um corpo.
+**GET**: Não é necessário ter um corpo.
+
+**POST**: Precisa ter um corpo no formato JSON. É lá que você manipula conforme sua necessidade.
+
+**PUT**: Precisa ter um corpo no formato JSON. É lá que você manipula conforme sua necessidade.
+
+**DELETE**: Não é necessário ter um corpo.
