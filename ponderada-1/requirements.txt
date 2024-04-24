@@ -1,4 +1,4 @@
-flask
-Flask-SQLAlchemy
-Flask-JWT-Extended
-requests
+flask 
+flask-swagger-ui 
+Flask-HTTPAuth 
+flask-CORS
