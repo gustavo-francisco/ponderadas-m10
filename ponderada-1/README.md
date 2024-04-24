@@ -13,6 +13,7 @@ Antes de tudo, é necessário instalar as dependências do projeto. Para isso:
 `python -m pip install -r requirements.txt `
 
 Em seguida, inicie o aplicativo para rodar o servidor localmente:
+
  `python3 app.py`
 
  Pronto! o projeto está rodando.
