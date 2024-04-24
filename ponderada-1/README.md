@@ -22,7 +22,16 @@ Para operar a API, é necessário fazer requisições HTTP. Para isso, utilizare
 
 Visualização da interface:
 
-Para fazer a autenticação, é necessário selecionar o tipo dela e colocar as credenciais encontradas no código (username: gustavo, password: senha). Neste projeto, usamos o tipo *basic*.
+![image](https://github.com/gustavo-francisco/ponderadas-m10/assets/99208114/7e8edbf2-d072-4015-93ca-ab68045020ab)
+
+Para fazer a autenticação, precisamos selecionar o tipo dela. Neste projeto usamos o tipo *basic*.
+
+![image](https://github.com/gustavo-francisco/ponderadas-m10/assets/99208114/4953e3b9-efda-42f9-a526-b40092849eed)
+
+Após selecionar seu tipo, é necessário entrar com as credenciais. Você pode encontrá-las e alterá-las no código.
+
+![image](https://github.com/gustavo-francisco/ponderadas-m10/assets/99208114/073efbd6-33de-40cb-b02c-56f9a0e397d6)
+
 
 Requisitos das operações:
 
