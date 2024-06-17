@@ -1,0 +1,5 @@
+# Use a imagem oficial do NGINX
+FROM nginx:alpine
+
+# Copie a configuração personalizada para o contêiner
+COPY nginx.conf /etc/nginx/nginx.conf
