@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./api_service
+      dockerfile: Dockerfile
+    container_name: api_service
+    ports:
+      - "5000:5000"
+
+  storage:
+    build:
+      context: ./storage_service
+      dockerfile: Dockerfile
+    container_name: storage_service
+    ports:
+      - "5001:5001"
+
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    container_name: nginx
+    ports:
+      - "8080:8080"
+    depends_on:
+      - api
+      - storage
